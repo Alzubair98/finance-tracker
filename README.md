@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Finance Tracker app
 
 > This is the finance tracker app.
