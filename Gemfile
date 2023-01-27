@@ -28,6 +28,7 @@ gem "jbuilder"
 #devise gem for auth
 gem 'devise'
 
+gem 'devise-bootstrap-views', '~> 1.0'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
