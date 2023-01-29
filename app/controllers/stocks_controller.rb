@@ -8,7 +8,7 @@ class StocksController < ApplicationController
             else
                 flash[:alert] = 'Wrong Symbol'
             end
-            else 
+        else 
             flash[:alert] = 'Please enter a symbol to search'
             redirect_to my_portfolio_path
         end
