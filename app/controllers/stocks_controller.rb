@@ -6,7 +6,8 @@ class StocksController < ApplicationController
             if @stock #checking if the stock is not nil (wrong)
                 render 'users/my_portfolio'
             else
-                flash[:alert] = 'Wrong Symbol'
+                flash[:alert] = 'Wrong Symbol. Please Enter Correct Symbol'
+                redirect_to my_portfolio_path
             end
         else 
             flash[:alert] = 'Please enter a symbol to search'
