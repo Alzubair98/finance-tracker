@@ -35,6 +35,9 @@ gem 'devise-bootstrap-views', '~> 1.0'
 # add iex api gem 
 gem 'iex-ruby-client'
 
+#font-awesome-rails gem 
+gem 'font-awesome-rails'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
