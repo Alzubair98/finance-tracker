@@ -15,6 +15,6 @@
   <%end%>
 </div>
 <%= render 'users/result'%>
-<%if !@user.stocks.empty? %> #check for stocks
+<%if !@user.stocks.empty? %> <%# check for stocks %>
 <%= render 'stocks/list'%>
 <%end%>
